@@ -1,0 +1,9 @@
+To be able to use this, you should have SoQt and Coin3D libraries installed on your system.
+
+How to run:
+
+1. Clone the repository. Next open the directory in terminal.
+2. Run qmake -project. It will generate cone.pro file.
+3. Run qmake. 
+4. Run make. In case of some SoQt missing errors, open the Makefile. Go to LIBS and edit -lSoQt and -lCoin at the end.
+5. Again run make and next ./cone. A cone will show up in ExaminerViewer window.
